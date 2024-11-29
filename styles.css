@@ -1,0 +1,88 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for the entire page */
+    color: #f0f0f0;  /* Light text color for readability */
+}
+
+/* Container Style */
+.container {
+    width: 80%;               /* Adjust width to 80% of the page */
+    max-width: 1200px;        /* Max width to prevent content from getting too wide */
+    margin: 0 auto;           /* Center the content horizontally */
+    padding: 20px;            /* Padding inside the container for spacing */
+}
+
+/* Title Styling */
+h1 {
+    color: #ffffff;           /* White color for the title */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;       /* Center-align the title */
+    font-size: 2.5rem;        /* Larger title size */
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #333333;  /* Dark card background */
+    color: #f0f0f0;             /* Light text color inside cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for card */
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;  /* White card title text */
+}
+
+/* Form Input Fields */
+input[type="text"], input[type="password"] {
+    background-color: #444444;  /* Dark background for input fields */
+    color: #ffffff;             /* White text for input fields */
+    border: 1px solid #555555;  /* Light border color */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+    font-size: 1rem;
+    padding: 12px;
+    background-color: #007bff;  /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Result Text (when displaying retrieved password) */
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for errors or important messages */
+    text-align: center;
+}
+
+/* Add animation for buttons and inputs */
+button, input[type="text"], input[type="password"] {
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;  /* Blue border on focus */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* Blue shadow for focus */
+}
